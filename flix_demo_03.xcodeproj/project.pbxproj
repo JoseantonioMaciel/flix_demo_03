@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338458B02170096A004F3CBF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338458AF2170096A004F3CBF /* DetailViewController.swift */; };
+		338458B221712B64004F3CBF /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338458B121712B64004F3CBF /* PosterCell.swift */; };
+		338458B421712C03004F3CBF /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338458B321712C03004F3CBF /* SuperheroViewController.swift */; };
 		33F082D22166998C00FD678D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F082D12166998C00FD678D /* AppDelegate.swift */; };
 		33F082D72166998C00FD678D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F082D52166998C00FD678D /* Main.storyboard */; };
 		33F082D92166998E00FD678D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F082D82166998E00FD678D /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		338458AF2170096A004F3CBF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		338458B121712B64004F3CBF /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		338458B321712C03004F3CBF /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 		33F082CE2166998C00FD678D /* flix_demo_03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_demo_03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F082D12166998C00FD678D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33F082D62166998C00FD678D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +98,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338458AC21700899004F3CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33F0830721684EB400FD678D /* MovieCell.swift */,
+				338458B121712B64004F3CBF /* PosterCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		338458AE217008DD004F3CBF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33F083032166B02D00FD678D /* NowPlayingViewController.swift */,
+				338458AF2170096A004F3CBF /* DetailViewController.swift */,
+				338458B321712C03004F3CBF /* SuperheroViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		33F082C52166998B00FD678D = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +142,8 @@
 		33F082D02166998C00FD678D /* flix_demo_03 */ = {
 			isa = PBXGroup;
 			children = (
-				33F0830721684EB400FD678D /* MovieCell.swift */,
-				33F083032166B02D00FD678D /* NowPlayingViewController.swift */,
+				338458AC21700899004F3CBF /* Views */,
+				338458AE217008DD004F3CBF /* ViewController */,
 				33F082D12166998C00FD678D /* AppDelegate.swift */,
 				33F082D52166998C00FD678D /* Main.storyboard */,
 				33F082D82166998E00FD678D /* Assets.xcassets */,
@@ -398,8 +423,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				33F083042166B02D00FD678D /* NowPlayingViewController.swift in Sources */,
+				338458B221712B64004F3CBF /* PosterCell.swift in Sources */,
+				338458B421712C03004F3CBF /* SuperheroViewController.swift in Sources */,
 				33F082D22166998C00FD678D /* AppDelegate.swift in Sources */,
 				33F0830821684EB400FD678D /* MovieCell.swift in Sources */,
+				338458B02170096A004F3CBF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 38NHP694FB;
 				INFOPLIST_FILE = flix_demo_03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,7 +624,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 38NHP694FB;
 				INFOPLIST_FILE = flix_demo_03/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
